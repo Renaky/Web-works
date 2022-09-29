@@ -1,0 +1,104 @@
+body
+{
+    margin: 0;
+}
+
+h1
+{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+h2
+{
+    color: white;
+}
+
+.logo img
+{
+    height: 50px;
+    border: none;
+    margin-left: 30px;
+}
+
+img
+{
+    height: 150px;
+    border: 1px solid ;
+    border-radius: 8px;
+}
+
+p
+{
+    color:#b2b2b2
+}
+
+.yellow
+{
+    color: #febe01;
+}
+
+button
+{
+    background-color: #febe01;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+* 
+{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 650px 650px;
+    gap:15px;
+}
+
+.container
+{
+    background-color: #111;
+    border-radius: 8px;
+}
+
+header
+{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul
+{
+    display: flex;
+}
+
+li
+{
+    align-self: center;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.bmenu
+{
+    background-color: #93c572;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,126 @@
+h1
+{
+    text-align: right;
+    margin-right:30px;
+    font-size: 50px;
+    color:gray;
+}
+
+h2
+{
+    text-align: right;
+    margin-right:30px;
+    font-size: 29px;
+}
+
+.logo img
+{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+}
+.icon{
+    width: 10%;
+  }
+
+img
+{
+    width: 450px;
+    height: 300px;
+   
+}
+
+p
+{
+    text-align: right;
+    margin-right:30px;
+}
+
+.bmain
+{
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+}
+
+.bmenu
+{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: silver;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+* 
+{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 450px 450px;
+}
+
+section
+{
+    background-color: white;
+    width: 450px;
+    height: 300px;
+}
+/* section img{
+    width: 450px;
+    height: 300px;
+} */
+
+.silver
+{
+    background-color: silver;
+    width: 450px;
+    height: 350px;
+}
+.white
+{
+    background-color: white;
+    width: 450px;
+    height: 300px;
+}
+
+header
+{
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-image: url("http://squids.com.br/icons/folder.png");
+    
+}
+
+li
+{
+    list-style-type: none;
+    padding-left: 1rem;
+}

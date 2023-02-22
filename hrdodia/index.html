@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio do Dia</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1><span><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/5/54/Instituto_Federal_Marca_2015.svg" alt="Logo" ></span> Rocket<span>Coffee</span></h1>
+    </header>
+
+    <section class="dodia">
+        <div id="msg">
+            Aqui vai aparecer a mensagem...
+        </div>
+        <div id="foto">
+            <figure>
+                <img id="imagem" src="./images/almoço.jpg" alt="Prato do dia">
+                <figcaption id="disponivel"></figcaption>
+            </figure>
+            
+        </div>
+    </section>
+    
+    <section class="dodia">
+        <h2 id="tit1"></h2>
+
+        <ul>
+            <li>
+                <div class="details">
+                    <h3 id="descTit1"></h3>
+                    <p id="desc1" class="description"></p>
+                </div>
+                <strong id="price1" class="price">
+                    
+                </strong>
+
+            </li>
+            <li>
+                <div class="details">
+                    <h3 id="descTit2">texto</h3>
+                    <p id="desc2" class="description">textdesc</p>
+                </div>
+                <strong id="price2" class="price">
+                price    
+                </strong>
+
+            </li>
+        </ul>
+    </section>
+
+    <section class="dodia">
+        <h2 id="tit2"></h2>
+
+        <ul>
+            <li>
+                <div class="details">
+                    <h3 id="descTit3"></h3>
+                    <p id="desc3" class="description"></p>
+                </div>
+                <strong id="price3" class="price">
+                    
+                </strong>
+
+            </li>
+            <li>
+                <div class="details">
+                    <h3 id="descTit4">texto</h3>
+                    <p id="desc4" class="description">textdesc</p>
+                </div>
+                <strong id="price4" class="price">
+                price    
+                </strong>
+
+            </li>
+        </ul>
+    </section>
+
+
+    <footer>
+        <p>&copy; Renaki</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
